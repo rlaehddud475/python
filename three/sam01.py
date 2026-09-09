@@ -97,8 +97,8 @@ print(weather)
 money = 1500
 transportation = "버스" if money >= 1000 else "도보"
 print(transportation)
-age =int(input())
-time=int(input())
+age =int(input("나이를 입력하세요: "))
+time=int(input("시간을 입력하세요: "))
 if age<7:
      price = 0
 elif age>7 and 18>age:
