@@ -35,7 +35,7 @@ a.pop()
 a.pop(1)
 a = [1, 2, 3, 1]
 a.count(1)
- a = [1, 2, 3]
+a = [1, 2, 3]
 a.extend([4, 5])
 b = [6, 7]
 a.extend(b)
