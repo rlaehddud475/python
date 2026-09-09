@@ -71,3 +71,35 @@ for i in range(10):
     if i == 5:
         break
     print(i)
+
+for i in range(5):
+    print(i)
+else:
+    print("for 문이 정상 종료되었습니다.")
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("for 문이 정상 종료되었습니다.")
+
+
+fruits = ['apple', 'banana', 'orange']
+for i, fruit in enumerate(fruits):
+    print(f"{i}: {fruit}")
+
+fruits = ['apple', 'banana', 'orange']
+for i, fruit in enumerate(fruits, 1):
+    print(f"{i}: {fruit}")
+
+names = ['홍길동', '김철수', '이영희']
+scores = [85, 92, 78]
+for name, score in zip(names, scores):
+    print(f"{name}: {score}점")
+
+names = ['홍길동', '김철수', '이영희']
+korean = [85, 92, 78]
+english = [90, 88, 95]
+for name, kor, eng in zip(names, korean, english):
+    print(f"{name}: 국어 {kor}점, 영어 {eng}점")
