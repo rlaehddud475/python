@@ -1,0 +1,5 @@
+uInput=input("저장할 내용을 입력하세요 : ")
+f=open("text.txt",'a',encoding="utf-8")
+f.write(uInput)
+f.write("\n")
+f.close()
